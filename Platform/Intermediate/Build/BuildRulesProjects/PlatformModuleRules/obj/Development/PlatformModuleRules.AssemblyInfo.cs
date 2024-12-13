@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PlatformModuleRules")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Development")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+701793ca75772200fbb6c84f181e1eec9d21bc61")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cb91a5b9e690217e5a1ac40fc383fb2b7eb81551")]
 [assembly: System.Reflection.AssemblyProductAttribute("PlatformModuleRules")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PlatformModuleRules")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

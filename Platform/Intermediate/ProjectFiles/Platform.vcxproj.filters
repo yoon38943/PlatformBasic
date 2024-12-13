@@ -11,6 +11,7 @@
     <None Include="..\..\Source\PlatformEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\.vsconfig" />
     <Filter Include="Config">
       <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
     </Filter>
@@ -38,6 +39,12 @@
     <ClCompile Include="..\..\Source\Platform\Platform.h">
       <Filter>Source\Platform</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\PlatformGI.cpp">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\PlatformGI.h">
+      <Filter>Source\Platform</Filter>
+    </ClCompile>
     <Filter Include="Source\Platform\Character">
       <UniqueIdentifier>{E633A601-AF3B-30A6-927B-EFF3F4596A02}</UniqueIdentifier>
     </Filter>
@@ -45,6 +52,12 @@
       <Filter>Source\Platform\Character</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Platform\Character\HCharBase.h">
+      <Filter>Source\Platform\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Character\PlatformAnimInstance.cpp">
+      <Filter>Source\Platform\Character</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Character\PlatformAnimInstance.h">
       <Filter>Source\Platform\Character</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\Platform\Character\PlatformCharacter.cpp">
@@ -58,6 +71,45 @@
     </Filter>
     <ClCompile Include="..\..\Source\Platform\ETC\HDebugMacros.h">
       <Filter>Source\Platform\ETC</Filter>
+    </ClCompile>
+    <Filter Include="Source\Platform\Framework">
+      <UniqueIdentifier>{3D013757-3C3D-3B21-B5D3-975FEE74FEF5}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Platform\Framework\OutGameMode.cpp">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\OutGameMode.h">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\OutPlayerController.cpp">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\OutPlayerController.h">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\PlatformGameMode.cpp">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\PlatformGameMode.h">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\PlatformGameState.cpp">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\PlatformGameState.h">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\PlatformPlayerController.cpp">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\PlatformPlayerController.h">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\PlatformPlayerState.cpp">
+      <Filter>Source\Platform\Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\Platform\Framework\PlatformPlayerState.h">
+      <Filter>Source\Platform\Framework</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"D:\\Professor_UE5_Programming\\Platform\\Source\\Platform\\Platform.Build.cs",
-		"D:\\Professor_UE5_Programming\\Platform\\Source\\Platform.Target.cs",
-		"D:\\Professor_UE5_Programming\\Platform\\Source\\PlatformEditor.Target.cs"
+		"D:\\PlatformBasic\\Platform\\Source\\Platform\\Platform.Build.cs",
+		"D:\\PlatformBasic\\Platform\\Source\\Platform.Target.cs",
+		"D:\\PlatformBasic\\Platform\\Source\\PlatformEditor.Target.cs"
 	],
 	"EngineVersion": "5.5.1"
 }
