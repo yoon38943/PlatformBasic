@@ -3,6 +3,11 @@
 #include "Blueprint/WidgetBlueprintLibrary.h"
 
 
+AOutPlayerController::AOutPlayerController()
+{
+	SetShowMouseCursor(true);
+}
+
 void AOutPlayerController::BeginPlay()
 {
 	Super::BeginPlay();
