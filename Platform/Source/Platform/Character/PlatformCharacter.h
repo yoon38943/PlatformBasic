@@ -11,9 +11,15 @@ class PLATFORM_API APlatformCharacter : public AHCharBase
 	GENERATED_BODY()
 	
 public:
+	UPROPERTY(EditAnywhere, Category = Input)
+	UInputAction* IA_Pause;
+	
 	APlatformCharacter();
 	virtual void PostInitializeComponents() override;
 	virtual void Tick(float DeltaTime) override;
+
+	void Pause(const FInputActionValue& Value);
+
 
 public:
 	void UpdateSmoothingCamera(float DeltaTime);

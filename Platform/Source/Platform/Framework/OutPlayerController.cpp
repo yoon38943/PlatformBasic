@@ -19,6 +19,7 @@ void AOutPlayerController::BeginPlay()
 		{
 			MainMenu->AddToViewport(0);
 
+			// 플레이어 컨트롤러의 입력모드를 UI 전용으로 설정. ( 마우스 커서가 뷰포트에 Lock 걸리지 않게 )
 			UWidgetBlueprintLibrary::SetInputMode_UIOnlyEx(this, MainMenu, EMouseLockMode::DoNotLock);
 
 			// TODO: 네트워크 에러 판별 코드 추가

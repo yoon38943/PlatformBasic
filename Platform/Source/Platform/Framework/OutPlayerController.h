@@ -11,9 +11,9 @@ class PLATFORM_API AOutPlayerController : public APlayerController
 	GENERATED_BODY()
 
 public:
-
 	AOutPlayerController();
-	
+
+public:
 	UPROPERTY(EditDefaultsOnly, BlueprintReadOnly)
 	TSubclassOf<class UUserWidget> MainMenuClass;
 

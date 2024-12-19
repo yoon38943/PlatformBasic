@@ -34,6 +34,10 @@ void APlatformCharacter::Tick(float DeltaTime)
 	UpdateSmoothingCamera(DeltaTime);
 }
 
+void APlatformCharacter::Pause(const FInputActionValue& Value)
+{
+}
+
 void APlatformCharacter::UpdateSmoothingCamera(float DeltaTime)
 {
 	FVector VStart = GetActorLocation();
